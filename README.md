@@ -6,11 +6,13 @@ The first routine, `pseudo_norm`, performs a broad running-median normalization.
 
 ## Installation
 
-From a clone of this repository:
+The package can be installed from a clone of this repository:
 
 ```bash
 pip install .
 ```
+
+A pip installation is not required. Alternatively, copy the `norm_spectrum` package directory (the directory under `src/`) to a location included in your `PYTHONPATH`, or place it in the directory from which you run your Python code. In either case it can be imported in exactly the same way.
 
 ## Usage
 
