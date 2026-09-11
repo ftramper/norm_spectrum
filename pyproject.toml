@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "norm-spectrum"
-version = "0.1.0"
+version = "1.0.0"
 description = "Lightweight normalization tools for astronomical spectra"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "Frank Tramper"}]
+license = {file = "LICENSE"}
 dependencies = [
     "numpy>=1.23",
     "scipy>=1.9",
@@ -16,6 +17,7 @@ dependencies = [
 keywords = ["astronomy", "spectroscopy", "normalization", "continuum"]
 classifiers = [
     "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
     "Topic :: Scientific/Engineering :: Astronomy",
 ]
 
