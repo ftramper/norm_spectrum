@@ -1,5 +1,7 @@
 # norm_spectrum
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22707406.svg)](https://doi.org/10.5281/zenodo.22707406)
+
 Lightweight, importable normalization routines for astronomical spectra.
 
 The first routine, `pseudo_norm`, performs a broad running-median normalization. For spectra with a well-defined continuum (for example many O-star spectra), this behaves as a conventional continuum normalization; for spectra dominated by dense absorption structure, it provides a pseudo-continuum normalization. The method is intended for fast analysis tasks such as plotting and radial-velocity measurements rather than detailed atmosphere modelling.
@@ -83,3 +85,11 @@ A future release is intended to add the X-shooter normalization routine under th
 ```python
 from norm_spectrum import RJ_norm
 ```
+
+## Citation
+
+If you use `norm_spectrum` in scientific work, please cite the archived software release:
+
+**Tramper, F. (2026). norm_spectrum v1.0.0. Zenodo. https://doi.org/10.5281/zenodo.22707406**
+
+The repository also includes a `CITATION.cff` file for citation tools that support the Citation File Format.
