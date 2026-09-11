@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "norm-spectrum"
+version = "0.1.0"
+description = "Lightweight normalization tools for astronomical spectra"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Frank Tramper"}]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+]
+keywords = ["astronomy", "spectroscopy", "normalization", "continuum"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.urls]
+Repository = "https://github.com/ftramper/norm_spectrum"
+
+[tool.setuptools.packages.find]
+where = ["src"]
