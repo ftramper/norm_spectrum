@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use norm_spectrum in your work, please cite the software release."
+title: "norm_spectrum"
+type: software
+authors:
+  - family-names: "Tramper"
+    given-names: "Frank"
+version: 1.0.0
+repository-code: "https://github.com/ftramper/norm_spectrum"
+license: MIT
