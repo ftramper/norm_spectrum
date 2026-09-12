@@ -6,7 +6,7 @@ Lightweight, importable normalization routines for astronomical spectra.
 
 The first routine, `pseudo_norm`, performs a broad running-median normalization. For spectra with a well-defined continuum (for example many O-star spectra), this behaves as a conventional continuum normalization; for spectra dominated by dense absorption structure, it provides a pseudo-continuum normalization. The method is intended for fast analysis tasks such as plotting and radial-velocity measurements rather than detailed atmosphere modelling.
 
-Additional normalization methods can be added later under the same package namespace (for example the X-shooter NIR normalization routine).
+Additional normalization methods will be added later under the same package namespace (for example the X-shooter NIR normalization routine).
 
 ## Method
 
